@@ -12,6 +12,6 @@ meta2 <- infer_variant(meta)
 
 #save the newmetadata#
 write.csv(meta2, file="variants.csv", row.names=FALSE)
-
-## Utility 
+```
+## Utility
 Use "infer variant" to obtain a "variant column" added to your dataframe. 
