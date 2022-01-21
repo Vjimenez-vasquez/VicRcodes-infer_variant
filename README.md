@@ -18,7 +18,7 @@ meta2 <- infer_variant(data = data, label = "label")
 #save the new metadata#
 write.csv(meta2, file="variants.csv", row.names=FALSE)
 
-# "infer_variant" arguments #
+#"infer_variant" arguments #
 - data : a data.frame cointaing a column called "pangolin_lineage". 
 - label : a dessired name to inclued in the output csv file .  
 
