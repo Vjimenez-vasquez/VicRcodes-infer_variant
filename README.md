@@ -27,4 +27,4 @@ write.csv(meta2, file="variants.csv", row.names=FALSE)
 a data frame including a new clomun specifying SARS-CoV-2 variant per row store in a "csv" file called "gisaid_label_.csv"
 
 ## Utility
-Use "infer variant" to obtain a "variant column" added to your dataframe. 
+Use "infer variant" to obtain a "variant column" added to your dataframe.
