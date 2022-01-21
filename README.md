@@ -6,12 +6,25 @@ There are currently 10 SARS-CoV-2 variants assigned by World Health Organisation
 
 ## Usage 
 ```r
+#paste "infer_variant.R" file in your working directory#
+source("infer_variant.R")
+
 #load metadata downloaded from GISAID#
 meta <- read.csv("metadata.tsv", header=TRUE, sep="\t")
-meta2 <- infer_variant(meta)
 
-#save the newmetadata#
+#run infer_variant#
+meta2 <- infer_variant(data = data, label = "label")
+
+#save the new metadata#
 write.csv(meta2, file="variants.csv", row.names=FALSE)
+
+# "infer_variant" arguments #
+- data : a data.frame cointaing a column called "pangolin_lineage". 
+- label : a dessired name to inclued in the output csv file .  
+
 ```
+## Output
+a data frame including a new clomun specifying SARS-CoV-2 variant per row store in a "csv" file called "gisaid_label_.csv"
+
 ## Utility
 Use "infer variant" to obtain a "variant column" added to your dataframe. 
