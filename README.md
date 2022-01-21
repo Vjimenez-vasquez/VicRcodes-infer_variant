@@ -2,7 +2,7 @@
 
 This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com.
 ## Intro
-There are currently 10 SARS-CoV-2 variants assigned by World Health Organisation (WHO) defined by more than 200 pango-lineages. Metadata downloaded from GISAID contains "lineage" information but not "variant". The knowledge on the regional progression of SARS-CoV-2 variants requires a manual assignation that could be tedious, time-consuming and prone to errors. "Infer variant" allows the user to add a variant column given a metadata downloaded from GISAID and or a dataframe containing a "lineage" column. 
+There are currently 7 SARS-CoV-2 variants (VOI/VOC) assigned by World Health Organisation (WHO) defined by more than 250 pango-lineages. Metadata downloaded from GISAID contains "lineage" information but not "variant". The knowledge on the regional progression of SARS-CoV-2 variants requires a manual assignation that could be tedious, time-consuming and prone to errors. "Infer variant" allows the user to add a variant column given a metadata downloaded from GISAID and or a dataframe containing a "lineage" column. 
 
 ## Usage 
 ```r
