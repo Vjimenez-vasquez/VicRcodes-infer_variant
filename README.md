@@ -30,3 +30,7 @@ a data frame including a new clomun specifying SARS-CoV-2 variant per row store 
 ## Utility
 Use "infer variant" to obtain a "variant column" added to your dataframe.
 
+This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com.
+
+Vic
+
