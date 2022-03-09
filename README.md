@@ -1,4 +1,4 @@
-# vic_R_codes_III
+# VicRcodes - infer_variant
 ![infer_image](https://user-images.githubusercontent.com/89874227/150560900-e25f8623-1259-4444-93ef-1f1f7a398283.jpg)
 
 This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com.
@@ -25,7 +25,7 @@ write.csv(meta2, file="variants.csv", row.names=FALSE)
 
 ```
 ## Output
-a data frame including a new clomun specifying SARS-CoV-2 variant per row store in a "csv" file called "gisaid_label_.csv"
+A data frame including a new clomun specifying SARS-CoV-2 variant per row store in a "csv" file called "gisaid_label_.csv"
 
 ## Utility
 Use "infer variant" to obtain a "variant column" added to your dataframe.
